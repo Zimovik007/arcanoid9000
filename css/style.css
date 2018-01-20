@@ -1,0 +1,87 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image: url("bg1.jpg");
+}
+
+.container-size{
+    display: table;
+    height: 100%;
+}
+
+.start-menu{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.results-menu{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.game-menu{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.menu-wrapper{
+    background-color: #fff;
+    border: 3px solid #aaa;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.menu_title{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.start-menu_button-start{
+    margin: 20px;
+    text-align: center;
+}
+
+.start-menu_button-results{
+    margin: 20px;
+    text-align: center;
+}
+
+.start-menu_player-name{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.results-menu_button-home{
+    margin: 20px;
+}
+
+.results-menu_row{
+    font-size
+}
+
+.game-menu_player{
+    margin-left: 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+canvas{
+    background: #eee;
+    display: block;
+    margin: 10;
+}
+
+.game-menu_canvas{
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+}
+
+.game-menu_game-over-state{
+    text-align: center;
+    margin: 50px;
+}
